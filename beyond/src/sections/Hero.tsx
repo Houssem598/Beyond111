@@ -89,10 +89,10 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.6 }}
               className="max-w-2xl text-[17px] lg:text-[19px] leading-relaxed text-ink-600 mb-12 lg:mb-16 font-light"
             >
-              BeyondMed Group is a UK-incorporated facilitator coordinating international
-              medical tourism for patients from France, the United Kingdom, the United States,
-              and Canada. We partner exclusively with accredited cosmetic surgery clinics in
-              Tunisia.
+              BeyondMed Group is a UK-incorporated facilitator connecting international
+              patients from France, the United Kingdom, the United States, and Canada with
+              the world's best accredited medical providers — offering transparent, safe, and
+              premium healthcare access across global destinations.
             </motion.p>
 
             {/* CTAs + Status */}
@@ -143,9 +143,9 @@ export default function Hero() {
               secondary="International reach"
             />
             <Credential
-              label="Operations"
-              primary="Tunisia"
-              secondary="Accredited clinics"
+              label="Network"
+              primary="Global"
+              secondary="Accredited providers"
             />
           </div>
         </motion.div>

@@ -139,17 +139,17 @@ const locations = [
     ],
   },
   {
-    code: 'TUN',
-    role: 'Operations',
-    flag: '— Republic of Tunisia',
-    country: 'Tunis',
-    city: 'Partner clinic network',
+    code: 'INTL',
+    role: 'Medical Network',
+    flag: '— Global Destinations',
+    country: 'International',
+    city: 'Accredited partner clinics worldwide',
     description:
-      'Network of accredited cosmetic surgery clinics with whom we hold formal facilitation agreements. All medical procedures take place exclusively at these licensed facilities.',
+      'A curated global network of internationally accredited medical facilities with whom we hold formal facilitation agreements. All procedures take place at licensed, board-certified facilities vetted to the highest international standards.',
     facts: [
       { label: 'Type', value: 'Partnership' },
       { label: 'Specialty', value: 'Cosmetic surgery' },
-      { label: 'Standards', value: 'European' },
+      { label: 'Standards', value: 'International' },
     ],
   },
   {
@@ -169,8 +169,8 @@ const locations = [
 ];
 
 const stats = [
-  { label: 'Countries served', value: '04', note: 'And expanding' },
+  { label: 'Countries served', value: '04+', note: 'And expanding' },
   { label: 'Languages', value: '03', note: 'EN · FR · AR' },
-  { label: 'Continents', value: '03', note: 'EU · AF · AS' },
+  { label: 'Destinations', value: 'Global', note: 'Worldwide network' },
   { label: 'Time zones', value: '24/7', note: 'Patient support' },
 ];

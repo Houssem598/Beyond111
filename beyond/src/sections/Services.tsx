@@ -104,7 +104,7 @@ const services = [
     id: 'S.02',
     title: 'Clinic coordination',
     description:
-      'Direct coordination with our network of accredited Tunisian partner clinics. Surgery scheduling, pre-operative requirements, and surgeon communication.',
+      'Direct coordination with our global network of accredited partner clinics. Surgery scheduling, pre-operative requirements, and surgeon communication handled on your behalf.',
   },
   {
     id: 'S.03',

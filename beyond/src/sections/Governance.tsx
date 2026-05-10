@@ -151,8 +151,8 @@ const compliance = [
     icon: Shield,
     title: 'Data Protection',
     description:
-      'We adhere to GDPR, UK Data Protection Act 2018, and Philippine Data Privacy Act standards across all patient communications and operational data.',
-    tag: 'GDPR · UK DPA · RA 10173',
+      'We adhere to GDPR and the UK Data Protection Act 2018 across all patient communications and operational data. Patient records are handled with the highest standards of confidentiality and security.',
+    tag: 'GDPR · UK DPA 2018',
   },
   {
     code: 'G.04',

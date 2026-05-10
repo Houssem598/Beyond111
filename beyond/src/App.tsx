@@ -4,6 +4,7 @@ import About from './sections/About';
 import Services from './sections/Services';
 import Operations from './sections/Operations';
 import Governance from './sections/Governance';
+import Legal from './sections/Legal';
 import Contact from './sections/Contact';
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
         <Services />
         <Operations />
         <Governance />
+        <Legal />
         <Contact />
       </main>
     </div>

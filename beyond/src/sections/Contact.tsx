@@ -19,7 +19,7 @@ export default function Contact() {
             <div className="col-span-12 lg:col-span-3">
               <div className="flex items-center gap-3 mb-6">
                 <span className="text-[11px] tracking-widest uppercase text-gold-500 font-mono">
-                  05 / Contact
+                  06 / Contact
                 </span>
               </div>
               <div className="text-[10px] tracking-widest uppercase text-ink-400 font-mono">
@@ -122,8 +122,8 @@ export default function Contact() {
                 Beyond<span className="italic text-gold-400">Med</span>
               </div>
               <p className="text-[14px] leading-relaxed text-cream-50/60 font-light max-w-sm">
-                International medical tourism facilitator. UK incorporated. Operating with
-                accredited clinical partners across Tunisia.
+                International medical tourism facilitator. UK incorporated. Connecting
+                patients worldwide with the best accredited medical providers.
               </p>
             </div>
 
@@ -152,6 +152,11 @@ export default function Contact() {
                     Governance
                   </a>
                 </li>
+                <li>
+                  <a href="#legal" className="text-cream-50/70 hover:text-cream-50 link-underline">
+                    Legal & Protection
+                  </a>
+                </li>
               </ul>
             </div>
 
@@ -161,13 +166,13 @@ export default function Contact() {
               </div>
               <ul className="space-y-3 text-[14px]">
                 <li>
-                  <a href="#" className="text-cream-50/70 hover:text-cream-50 link-underline">
-                    Privacy Policy
+                  <a href="#legal" className="text-cream-50/70 hover:text-cream-50 link-underline">
+                    Refund Policy
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-cream-50/70 hover:text-cream-50 link-underline">
-                    Terms of Service
+                  <a href="#legal" className="text-cream-50/70 hover:text-cream-50 link-underline">
+                    Patient Rights
                   </a>
                 </li>
                 <li>

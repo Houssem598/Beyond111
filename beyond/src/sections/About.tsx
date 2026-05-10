@@ -42,10 +42,10 @@ export default function About() {
                 journey.
               </p>
               <p className="text-[16px] lg:text-[17px] leading-relaxed text-ink-600 font-light">
-                Our partner clinics in Tunisia are independently licensed medical facilities
-                operated by board-certified surgeons. We maintain rigorous due diligence
-                processes to ensure that every patient receives care that meets European
-                clinical standards.
+                Our partner clinics are internationally accredited medical facilities
+                operated by board-certified surgeons across multiple countries. We maintain
+                rigorous due diligence processes to ensure that every patient receives care
+                that meets the highest international clinical standards.
               </p>
             </div>
           </div>
@@ -135,7 +135,7 @@ const pillars = [
     tag: 'Network',
     title: 'Vetted medical partners.',
     description:
-      'We partner only with licensed Tunisian clinics whose surgeons meet European board certification standards. Each partnership is reviewed annually.',
+      'We partner only with internationally accredited clinics whose surgeons meet European board certification standards. Each partnership is subject to annual review.',
   },
   {
     number: '03',
