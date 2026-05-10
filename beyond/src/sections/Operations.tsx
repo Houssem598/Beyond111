@@ -153,20 +153,6 @@ const locations = [
     ],
   },
   {
-    code: 'PHL',
-    role: 'Coordination',
-    flag: '— Republic of the Philippines',
-    country: 'Manila',
-    city: 'Coordination centre',
-    description:
-      'Operations centre handling patient communication, marketing coordination, and English-language client liaison for our UK, US, and Canadian markets.',
-    facts: [
-      { label: 'Function', value: 'Liaison' },
-      { label: 'Languages', value: 'EN · FR' },
-      { label: 'Hours', value: '24/7' },
-    ],
-  },
-  {
     code: 'FRA',
     role: 'Primary market',
     flag: '— French Republic',

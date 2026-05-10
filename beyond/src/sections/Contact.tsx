@@ -51,7 +51,7 @@ export default function Contact() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
                 {/* General Inquiries */}
                 <motion.a
-                  href="mailto:houssem@beyondmedclinic.com"
+                  href="mailto:contact@beyondmedgroupe.com"
                   initial={{ opacity: 0, y: 20 }}
                   animate={isInView ? { opacity: 1, y: 0 } : {}}
                   transition={{ duration: 0.6, delay: 0.1 }}
@@ -69,7 +69,7 @@ export default function Contact() {
                     General inquiries
                   </div>
                   <div className="font-serif text-[20px] lg:text-[24px] leading-tight">
-                    houssem@beyondmedclinic.com
+                    contact@beyondmedgroupe.com
                   </div>
                   <div className="mt-6 pt-6 border-t border-ink-900/[0.08] group-hover:border-cream-50/10 transition-colors duration-500">
                     <span className="text-[12px] text-ink-500 group-hover:text-cream-50/60 transition-colors duration-500">
@@ -188,10 +188,10 @@ export default function Contact() {
                 Contact
               </div>
               <a
-                href="mailto:houssem@beyondmedclinic.com"
+                href="mailto:contact@beyondmedgroupe.com"
                 className="text-[14px] text-cream-50/70 hover:text-cream-50 link-underline block mb-2"
               >
-                houssem@beyondmedclinic.com
+                contact@beyondmedgroupe.com
               </a>
               <p className="text-[14px] text-cream-50/60 font-light">
                 20 Wenlock Road, London N1 7GU
@@ -206,7 +206,7 @@ export default function Contact() {
               © 2026 BeyondMed Group Ltd · Companies House Reg. No. 17063347 · England & Wales
             </p>
             <p className="text-[12px] text-cream-50/40 font-mono">
-              Designed in Manila · Incorporated in London
+              Incorporated in London
             </p>
           </div>
         </div>

@@ -44,7 +44,7 @@ export default function Hero() {
               <div className="text-[10px] tracking-widest uppercase text-ink-400 font-mono mb-2">
                 Issued
               </div>
-              <div className="text-[12px] text-ink-700 font-mono">Manila / London</div>
+              <div className="text-[12px] text-ink-700 font-mono">London</div>
             </div>
             <div className="hidden lg:block">
               <div className="text-[10px] tracking-widest uppercase text-ink-400 font-mono mb-2">
