@@ -1,6 +1,6 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { Mail, MapPin, ArrowUpRight } from 'lucide-react';
+import { Mail, MapPin, Phone, ArrowUpRight } from 'lucide-react';
 
 export default function Contact() {
   const ref = useRef(null);
@@ -48,7 +48,7 @@ export default function Contact() {
             </div>
 
             <div className="col-span-12 lg:col-span-9">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
                 {/* General Inquiries */}
                 <motion.a
                   href="mailto:contact@beyondmedgroupe.com"
@@ -74,6 +74,35 @@ export default function Contact() {
                   <div className="mt-6 pt-6 border-t border-ink-900/[0.08] group-hover:border-cream-50/10 transition-colors duration-500">
                     <span className="text-[12px] text-ink-500 group-hover:text-cream-50/60 transition-colors duration-500">
                       Response within 24 business hours
+                    </span>
+                  </div>
+                </motion.a>
+
+                {/* Phone */}
+                <motion.a
+                  href="tel:+447544358115"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={isInView ? { opacity: 1, y: 0 } : {}}
+                  transition={{ duration: 0.6, delay: 0.15 }}
+                  className="group p-8 lg:p-10 border border-ink-900/[0.08] hover:border-ink-900 hover:bg-ink-900 hover:text-cream-50 transition-all duration-500"
+                >
+                  <div className="flex items-start justify-between mb-8">
+                    <Phone size={20} strokeWidth={1.25} className="text-gold-500" />
+                    <ArrowUpRight
+                      size={20}
+                      strokeWidth={1.25}
+                      className="opacity-30 group-hover:opacity-100 transition-all duration-500 group-hover:translate-x-1 group-hover:-translate-y-1"
+                    />
+                  </div>
+                  <div className="text-[10px] tracking-widest uppercase font-mono text-ink-400 group-hover:text-gold-400 transition-colors duration-500 mb-2">
+                    Phone & WhatsApp
+                  </div>
+                  <div className="font-serif text-[20px] lg:text-[24px] leading-tight">
+                    +44 7544 358115
+                  </div>
+                  <div className="mt-6 pt-6 border-t border-ink-900/[0.08] group-hover:border-cream-50/10 transition-colors duration-500">
+                    <span className="text-[12px] text-ink-500 group-hover:text-cream-50/60 transition-colors duration-500">
+                      Mon – Fri, 9am – 6pm GMT
                     </span>
                   </div>
                 </motion.a>
@@ -197,6 +226,12 @@ export default function Contact() {
                 className="text-[14px] text-cream-50/70 hover:text-cream-50 link-underline block mb-2"
               >
                 contact@beyondmedgroupe.com
+              </a>
+              <a
+                href="tel:+447544358115"
+                className="text-[14px] text-cream-50/70 hover:text-cream-50 link-underline block mb-2"
+              >
+                +44 7544 358115
               </a>
               <p className="text-[14px] text-cream-50/60 font-light">
                 20 Wenlock Road, London N1 7GU
